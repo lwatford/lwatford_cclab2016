@@ -1,0 +1,82 @@
+@import 'https://fonts.googleapis.com/css?family=Abril+Fatface|Alegreya" rel="stylesheet';
+
+* { margin:0; padding:0;}
+body {
+	color: #000;
+	font-family: 'Alegreya', serif;
+	font-size:100%;
+	background:#B0F6F9;
+}
+h3 {
+	margin-bottom: 30px;
+	font-size: 10pt;
+	text-align: center;
+	padding-top: 30px;
+	text-transform: uppercase;
+}
+#nav{
+	z-index:100;
+	background-color:#000000;
+	font-size: 13px;
+	position:fixed;
+	width:100%;
+	top:0;
+	letter-spacing: 1px;
+}
+#about{
+	font-size: 40px;
+	padding:23%;
+}
+
+#nav li{
+	margin: 0px;
+	display:inline-block;
+	padding:1%;
+}
+
+
+#wrapper {
+	position:relative;
+	width:100%;
+	max-width: 500px;
+	height: calc(100vh - 60px);
+	margin: 30px auto;
+	padding-top: 100px;
+}
+
+#container{
+	position:relative;
+	background:white;
+	width:600px;
+	height: 300px;
+	margin: 30px auto;
+	padding-top:0px;
+}
+
+
+#rtn {
+	display:block;
+	position:relative;
+	margin:0 auto;
+	width:170px;
+	height:170px;
+	background-size:100% auto;
+	z-index:1;
+}
+
+#type{
+	font:'Alegreya', serif;
+	font-size:10px;
+}
+
+#button{
+	position:relative;
+	width:40px;
+	height:50px;
+}
+
+/* --  webkit "hack" to style placeholder text -- */ 
+::-webkit-input-placeholder { color: #438ec1; text-align: center;  }
+:-moz-placeholder { color: #438ec1; text-align: center;  }
+::-moz-placeholder { color: #438ec1; text-align: center;  }
+:-ms-input-placeholder { color: #438ec1; text-align: center;  }
